@@ -1,0 +1,58 @@
+.producto {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  width:20%;
+  margin: 20px;
+}
+
+.producto:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.imagen {
+  height: 200px;
+  background-color: #eee;
+  object-fit: cover;
+}
+
+
+.info {
+  padding: 20px;
+}
+
+.titulo {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.descripcion {
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+
+.precio {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.boton {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #fff;
+  color: green;
+}
