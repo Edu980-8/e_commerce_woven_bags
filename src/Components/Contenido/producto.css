@@ -6,19 +6,20 @@
   border-radius: 10px;
   overflow: hidden;
   transition: all 0.3s ease;
-  width:20%;
-  margin: 20px;
+  width:85%;
+  margin: 30px;
 }
 
 .producto:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .imagen {
   height: 200px;
-  background-color: #eee;
-  object-fit: cover;
+  width:100%;
+  background-color: #ddd;
+  object-fit:contain;
 }
 
 
@@ -44,12 +45,13 @@
 .boton {
   margin-top: 20px;
   padding: 10px;
-  background-color: green;
-  color: #fff;
+  background-color:  var(--fondo_header);
+  color: black;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
+
 }
 
 .boton:hover {

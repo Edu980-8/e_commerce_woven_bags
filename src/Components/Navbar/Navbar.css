@@ -1,0 +1,20 @@
+.nav-container {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    background-color: var(--fondo_header);
+    color: black;
+    display: flex; 
+    justify-content: space-around;
+    box-shadow: 2px 2px 4px var(--borde_header);
+    position: sticky;
+    top: 0;
+    z-index:1000;
+  }
+
+  .info_contacto, .carrito{
+    margin: 35px;
+  }
+
+  .div_carrito{
+    align-items: center;
+  }

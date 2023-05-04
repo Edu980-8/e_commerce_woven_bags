@@ -2,20 +2,23 @@
   text-align: center;
 }
 
+.info_contacto h3, .nombre_Marca h3{
+  color:black;
+}
+
+.App .productos{
+  color:green;
+  margin-top: 50px;
+}
+
+
 .container_productos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
-header {
-  background-color: green;
-  color: white;
-  display: flex; 
-  justify-content: space-between;
-}
-.info_contacto, .carrito{
-  margin: 35px;
-}
+
+
 
 .App h1, .App .carrito{
   margin-top: 60px;
@@ -46,4 +49,27 @@ header {
 .links_info a:hover{
   background-color: green;
   color:white;
+}
+
+
+
+h3{
+  color:green
+}
+
+
+
+.div_carrito {
+  display: flex; /* Utilizamos display:flex en el contenedor */
+}
+
+.div_carrito:hover{
+  cursor: pointer;
+}
+
+
+.carrito_compras{
+  height: 30px;
+  width: 30px;
+  align-self: center;
 }
